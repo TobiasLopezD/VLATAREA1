@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="Css/Style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+
+<body>
+    <header>
+        <Div class="header">
+            <h1>Olympus e-news</h1>
+            <img src="Assets/imagenprincipal.jpg" alt="Olympus">
+            <p>Somos una pagina encarga de brindar las noticias mas actualizadas sobre el mundo de los videojuegos y el
+                esport. Tambien brindamos informacion sobre los eventos de comics, videojuegos y anime en Costa Rica, tambien 
+                informacion de toda la escena profesional de videojuegos 
+
+            </p>
+        </Div>
+
+        <nav class="nav">
+            <a href="Index.html">Pagina de Inicio</a><br>
+            <a href="Registro.html">Pagina de Registro</a>
+
+        </nav>
+
+
+    </header>
+
+    <main>
+        <div class="Registro">
+            <h2>Registro de usuario</h2>
+            <form>
+                <br>
+                <fieldset>
+                    <legend>Informaciion personal</legend>
+                    <br>
+                    <div>
+                        <label for="">Nombre</label>
+                        <input type="text" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="">Apellido</label>
+                        <input type="text" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="">Fecha de nacimiento</label>
+                        <input type="date" name="" id="Fechadenacimiento" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="">Genero</label>
+                        <label for="">Masculino</label>
+                        <input type="radio" name="" id="Masculino" value="Masculino" required>
+                        <label for="">Femenino</label>
+                        <input type="radio" name="" id="Femenino" value="Femenino" required>
+                        <label for="">Otro</label>
+                        <input type="radio" name="" id="Otro" value="Otro" required>
+                    </div>
+                    <br>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Informacion de Contacto</legend>
+                    <br>
+                    <div>
+                        <label for="">Direccion de correo electronico</label>
+                        <input type="email" name="" id="Correoelectronico" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="">Numero de telefono</label>
+                        <input type="number" name="" id="Telefono" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="">Direccion</label>
+                        <textarea name="" id="Direccion" cols="30" rows="10" ></textarea>
+                    </div>
+                    <br>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Informacion de cuenta</legend>
+                    <br>
+                    <div>
+                        <label for="">Nombre de usuario</label>
+                        <input type="text" name="" id="Usuario" required>
+
+                    </div>
+                    <br>
+                    <div>
+                        <label for="">Contrasena </label>
+                        <input type="password" name="" id="Contrasena" required>
+
+                    </div>
+                    <br>
+                    <div>
+                        <label for="">Confirmacion de contrasena</label>
+                        <input type="password" name="" id="Confirmacioncontrasena" required>
+                    </div>
+                    <br>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Preferencias</legend>
+                    <br>
+                    <div>
+                        <label for="">Selecionar un color favorito</label>
+                        <select>
+                            <option value="">Rojo</option>
+                            <option value="">Azul</option>
+                            <option value="">Verde</option>
+                            <option value="">Amarillo</option>
+                        </select>
+
+
+                    </div>
+                    <br>
+                    <div>
+                        <label for="">Aceptar Terminos y condiciones</label>
+                        <input type="checkbox" name="" id="Terminoscondiciones" required>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="submit" value="Enviar" required>
+
+
+                    </div>
+
+                </fieldset>
+
+
+
+            </form>
+
+        </div>
+
+    </main>
+    <footer>
+        <div class="social">
+
+            <a href="https://discord.gg/GpRgegQ3" target="_blank" >Unete a nuestro Discord</a>
+            <a href="#">Nuestro Tiktok</a>
+
+            <p>Olyumpus e-news &copy;</p>
+
+        </div>
+
+
+    </footer>
+</body>
+
+</html>

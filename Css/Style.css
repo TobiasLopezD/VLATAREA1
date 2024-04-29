@@ -1,0 +1,54 @@
+html {
+    background-color: beige;
+
+
+}
+
+.header {
+    text-align: center;
+    
+
+}
+
+.nav {
+    text-align: center;
+
+}
+
+
+
+header {
+    background-color: aquamarine;
+   
+}
+
+
+main {
+    background-color: darkolivegreen;
+    
+}
+
+footer {
+
+    background-color: coral;
+    
+}
+
+
+
+.Favoritos{
+    background-color: blue;
+    color: white;
+
+}
+
+.Destacados {
+    background-color: blue;
+    color: white;
+
+}
+
+a{
+ color: white;
+
+}
